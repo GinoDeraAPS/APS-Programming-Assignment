@@ -42,7 +42,7 @@ Note: there is no need to implement any of these. If you'd like to give your sol
 
 (Subset from: [https://developer.clickup.com/reference/createtask](https://developer.clickup.com/reference/createtask))
 
-```json lines
+```json5
 // Request
 {
   // Required fields that cannot be omitted, cannot be null and cannot have a blank string.
@@ -78,7 +78,7 @@ Note: there is no need to implement any of these. If you'd like to give your sol
 
 (Subset from: [https://developer.clickup.com/reference/gettask](https://developer.clickup.com/reference/gettask))
 
-```json lines
+```json5
 // Response
 {
   "id": "c88bb27d-cdd7-4fff-861f-9d84a134cf14",
@@ -96,7 +96,7 @@ Note: there is no need to implement any of these. If you'd like to give your sol
 
 (Subset from: [https://developer.clickup.com/reference/updatetask](https://developer.clickup.com/reference/updatetask))
 
-```json lines
+```json5
 // Request 1
 {
   // Can be omitted, cannot be null and cannot be a blank string.
